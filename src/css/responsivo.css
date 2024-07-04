@@ -1,0 +1,190 @@
+@media(max-width:1440px){
+    .imagens .informacoes h1{
+        font-size: 4rem;
+    }
+}
+
+.imagens .informacoes p{
+    font-size: 1.7rem;
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-size: 100%;
+    }
+
+    .imagens .informacoes img {
+        width: 60rem;
+        height: 40rem;
+        margin-left: 5rem;
+    }
+
+    .imagens .informacoes h2 {
+        font-size: 3.5rem;
+        margin-left: 4rem;
+    }
+
+    .imagens .informacoes p {
+        top: 28rem;
+        left: 70rem;
+        width: 45rem;
+    }
+
+    .btn {
+        top: 35rem;
+        left: 70rem;
+    }
+}
+
+@media(max-width:1120px){
+    .imagens{
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+    }
+
+    .footer{
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+        text-align: center;
+        margin: 0;
+    }
+
+}
+
+
+
+
+@media (max-width: 992px) {
+    body {
+        background-size: 100%;
+    }
+
+    .cabecalho .logo h1 {
+        font-size: 2rem;
+        margin-left: 5rem;
+    }
+
+    .cabecalho img {
+        width: 20rem;
+    }
+
+    .imagens .informacoes img {
+        width: 50rem;
+        height: 35rem;
+        margin-left: 3rem;
+    }
+
+    .imagens .informacoes h2 {
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+
+    .imagens .informacoes p {
+        top: 25rem;
+        left: 55rem;
+        width: 40rem;
+    }
+
+    .btn {
+        top: 30rem;
+        left: 55rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho .logo {
+        margin-left: 3rem;
+    }
+
+    .imagens .informacoes img {
+        width: 40rem;
+        height: 30rem;
+        margin-left: 2rem;
+    }
+
+    .imagens .informacoes h2 {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+
+    .imagens .informacoes p {
+        top: 20rem;
+        left: 45rem;
+        width: 35rem;
+    }
+
+    .btn {
+        top: 25rem;
+        left: 45rem;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cabecalho .logo h1 {
+        font-size: 1.8rem;
+        margin-left: 2rem;
+        align-items: center;
+    }
+
+    .cabecalho img {
+        width: 15rem;
+    }
+
+    .imagens .informacoes img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .imagens .informacoes h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    .imagens .informacoes p {
+        position: static;
+        width: 80%;
+        margin: 1rem auto;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .btn {
+        position: static;
+        display: block;
+        margin: 2rem auto;
+        width: auto;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    @media(max-width:480px){
+        .imagens .informacoes h1{
+            font-size: 36rem;
+        }
+    
+        .imagens .informacoes p{
+            font-size: 1.4rem;
+        }
+    }
+    
+    @media(min-width:1500px){
+        body{
+            margin:0 auto;
+        }
+    }    
+}

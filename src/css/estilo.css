@@ -1,0 +1,102 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    color: rgb(255, 255, 255);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cabecalho img {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 7rem;
+}
+
+.imagens .informacoes img {
+    max-width: 100%;
+    height: auto;
+    padding: 3rem 9rem;
+}
+
+.imagens .informacoes h2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    white-space: pre-line;
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+}
+
+.imagens .informacoes p {
+    position: absolute;
+    top: 31.5rem;
+    left: 92rem;
+    right: 0;
+    width: 49rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-family: "open sans", sans-serif;
+}
+
+.btn {
+    position: absolute;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    top: 42rem;
+    left: 92rem;
+    background-color: #f0f0f0;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+.lilas {
+    color: hsl(257, 40%, 49%);
+    transition: color 0.3s ease;
+}
+
+.btn:hover .lilas {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 1rem 10rem;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.footer .social i {
+    background-color: hsl(257, 40%, 49%);
+    font-size: 2rem;
+    transition: 0.3s;
+    border: 0.2rem solid hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 100%;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.footer .social a i:hover {
+    font-weight: 500;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
